@@ -1,0 +1,72 @@
+/* ##### Service Area CSS ##### */
+
+.HomeDemo3 .service_single_content {
+    position: relative;
+    z-index: 1;
+    padding: 30px 25px 15px;
+    border-radius: 0 20px;
+    margin-bottom: 30px;
+    position: relative;
+}
+.HomeDemo3 .service_single_content:after {
+    content: "";
+    position: absolute;
+    height: 234px;
+    width: 1.2px;
+    background: white;
+    top: 67px;
+    right: -10px;
+}
+.section-heading h2{
+    display: inline-block;
+    position: relative;
+    margin:  0 !important;
+}
+.section-heading:after {
+    content: '';
+    background: white;
+    left: 0;
+    top: 50%;
+    height: 1px;
+    transform: translateY(-50%);
+    width: 30%;
+    position: absolute;
+    left: 0;
+}
+.section-heading::before {
+    content: '';
+    background: white;
+    right: 0;
+    top: 50%;
+    height: 1px;
+    transform: translateY(-50%);
+    width: 30%;
+    position: absolute;
+}
+
+#about .col-12:last-child .service_single_content:after{
+    display:none;
+}
+
+
+.HomeDemo3 .service_single_content .service_icon i {
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #fff;
+    display: block;
+}
+.HomeDemo3 .service_icon{
+    margin-bottom: 20px
+}
+.HomeDemo3 .service_single_content h6 {
+    margin-bottom: 15px;
+    color: #fff;
+    font-size:20px;
+}
+
+#about .container{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: space-between;
+}
